@@ -1,14 +1,14 @@
 <template>
   <div class="home">
-    <!-- <div class="feature-card">
-      <router-link to="/movie/tt0409591">
-        <img src="https://fanart.tv/fanart/movies/566525/movieposter/shang-chi-and-the-legend-of-the-ten-rings-60c864e3bfb72.jpg" alt="Shang chi Poster" class="featured-img">
+    <div class="feature-card">
+      <router-link to="/movie/tt2527336">
+        <img src="https://images7.alphacoders.com/886/thumb-1920-886213.jpg" alt="Star Wars Poster" class="featured-img">
         <div class="detail">
-          <h3>Shang Chi</h3>
-          <p>Shang-Chi and the Legend of the Ten Rings has received its official plot synopsis, giving fans a bit more context into how the film will tie into Phase Four of the Marvel Cinematic Universe.</p>
+          <h3>Star Wars: The Last Jedi</h3>
+          <p>Jedi Master-in-hiding Luke Skywalker unwillingly attempts to guide young hopeful Rey in the ways of the force, while Leia, former princess turned general, attempts to lead what is left of the Resistance away from the ruthless tyrannical grip of the First Order.</p>
         </div>
       </router-link>
-    </div> -->
+    </div>
     <form @submit.prevent="SearchMovies()" class="search-box">
       <input type="text" placeholder="What are you looking for?" v-model="search" />
       <input type="submit" value="Search" />

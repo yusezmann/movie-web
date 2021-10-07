@@ -1,14 +1,14 @@
 <template>
   <div class="movie-detail">
     <h2>{{ movie.Title }}</h2>
-    <div class="detail">
-    <img :src="movie.Poster" alt="Movie Poster" class="featured-img">
+    <div class="detail flex flex-row">
+    <img :src="movie.Poster" alt="Movie Poster" class="featured-img rounded-md">
     <p><span>Genre: </span>{{ movie.Genre }}</p>
     <p><span>Director: </span>{{ movie.Director }}</p>
     <p><span>Tahun Rilis: </span>{{ movie.Year }}</p>
     <p><span>Rating: </span>{{ movie.imdbRating }}</p>
     </div>
-    <h3>Description</h3>
+    <h3>Description:</h3>
     <p>{{ movie.Plot }}</p>
   </div>
 </template>
@@ -53,6 +53,8 @@ export default {
 
   .featured-img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 200px;
     margin-bottom: 16px;
   }
@@ -61,7 +63,13 @@ export default {
     color: #FFF;
     font-size: 18px;
     line-height: 1.4;
+
+    span {
+      color: #000;
+      font-weight: 600;
+    }
   }
+
 }
 
 </style>

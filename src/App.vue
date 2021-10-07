@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #35495E;
+  background: url('./assets/redbox.jpg');
 }
 
 a {
