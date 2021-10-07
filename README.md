@@ -11,8 +11,10 @@ npm install
 To get apikey can visit https://www.omdbapi.com/
 
 Example:
-apikey:"as120798"
-Fill in the env file.js
+
+apikey:"as1207xx"
+
+Fill in the env.js
 
 ### Compiles and hot-reloads for development
 
